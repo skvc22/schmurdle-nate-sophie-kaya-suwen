@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+<meta charset="UTF-8">
+
+<head>
+    <title>Schmurdle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>SCHMURDLE</h1>
+    <button id="hardButton" onClick="hardmode()"> HARDMODE </button>
+    <table id="letters">
+        <tr>
+            <td id="cell0-0"> </td>
+            <td id="cell0-1"> </td>
+            <td id="cell0-2"> </td>
+            <td id="cell0-3"> </td>
+            <td id="cell0-4"> </td>
+        </tr>
+        <tr>
+            <td id="cell1-0"> </td>
+            <td id="cell1-1"> </td>
+            <td id="cell1-2"> </td>
+            <td id="cell1-3"> </td>
+            <td id="cell1-4"> </td>
+        </tr>
+        <tr>
+            <td id="cell2-0"> </td>
+            <td id="cell2-1"> </td>
+            <td id="cell2-2"> </td>
+            <td id="cell2-3"> </td>
+            <td id="cell2-4"> </td>
+        </tr>
+        <tr>
+            <td id="cell3-0"> </td>
+            <td id="cell3-1"> </td>
+            <td id="cell3-2"> </td>
+            <td id="cell3-3"> </td>
+            <td id="cell3-4"> </td>
+        </tr>
+        <tr>
+            <td id="cell4-0"> </td>
+            <td id="cell4-1"> </td>
+            <td id="cell4-2"> </td>
+            <td id="cell4-3"> </td>
+            <td id="cell4-4"> </td>
+        </tr>
+        <tr>
+            <td id="cell5-0"> </td>
+            <td id="cell5-1"> </td>
+            <td id="cell5-2"> </td>
+            <td id="cell5-3"> </td>
+            <td id="cell5-4"> </td>
+        </tr>
+    </table>
+    <div id="keys">
+        <button id="Q" onClick="keyboard('Q')"> Q </button>
+        <button id="W" onClick="keyboard('W')"> W </button>
+        <button id="E" onClick="keyboard('E')"> E </button>
+        <button id="R" onClick="keyboard('R')"> R </button>
+        <button id="T" onClick="keyboard('T')"> T </button>
+        <button id="Y" onClick="keyboard('Y')"> Y </button>
+        <button id="U" onClick="keyboard('U')"> U </button>
+        <button id="I" onClick="keyboard('I')"> I </button>
+        <button id="O" onClick="keyboard('O')"> O </button>
+        <button id="P" onClick="keyboard('P')"> P </button>
+        <br>
+        <button onClick="keyboard('A')"> A </button>
+        <button onClick="keyboard('S')"> S </button>
+        <button onClick="keyboard('D')"> D </button>
+        <button onClick="keyboard('F')"> F </button>
+        <button onClick="keyboard('G')"> G </button>
+        <button onClick="keyboard('H')"> H </button>
+        <button onClick="keyboard('J')"> J </button>
+        <button onClick="keyboard('K')"> K </button>
+        <button onClick="keyboard('L')"> L </button>
+        <br>
+        <button onClick="backspace()"> DELETE </button>
+        <button onClick="keyboard('Z')"> Z </button>
+        <button onClick="keyboard('X')"> X </button>
+        <button onClick="keyboard('C')"> C </button>
+        <button onClick="keyboard('V')"> V </button>
+        <button onClick="keyboard('B')"> B </button>
+        <button onClick="keyboard('N')"> N </button>
+        <button onClick="keyboard('M')"> M </button>
+        <button onClick="enter()"> ENTER </button>
+    </div>
+</body>
+<script src="source.js"></script>
+
+</html>

@@ -1,0 +1,68 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: "Neue Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-family: "Neue Helvetica", Helvetica, Arial, sans-serif;
+}
+
+td {
+    vertical-align: middle;
+}
+
+#letters {
+    table-layout: fixed;
+    width: 25%;
+    margin: auto;
+    white-space: pre;
+    font-family: "Neue Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+}
+
+#keys {
+    margin: 5% 40%;
+}
+
+.correct {
+    background-color: rgb(1, 154, 1);
+    color: white;
+}
+
+.incorrect {
+    background-color: rgb(120, 124, 126);
+    color: white;
+}
+
+.wrongSpot {
+    background-color: rgb(255, 196, 37);
+    color: white;
+}
+
+table {
+    empty-cells: show;
+}
+
+td {
+    border: 1px solid;
+    border-color: black;
+}
+
+.hard {
+    color: red;
+}
+
+.notHard {
+    color: green;
+}
